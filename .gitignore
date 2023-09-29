@@ -1,0 +1,5 @@
+# X-FACTR model
+X-FACTR/
+
+# Required for X-FACTR model, this is created during X-FACTR setup
+unimorph_inflect/
