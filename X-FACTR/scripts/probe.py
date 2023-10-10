@@ -105,7 +105,8 @@ def get_tokenizer(lang: str, name: str):
 
 
 def model_prediction_wrap(model, inp_tensor, attention_mask):
-    logit = model(inp_tensor, attention_mask=attention_mask)[0]
+    logit = model(inp_tensor, attention_mask=attention_mask)
+    logit = logit[0]
     if transformers.__version__ in {'2.4.1', '2.4.0'}:
         if hasattr(model, 'cls'):  # bert
             bias = model.cls.predictions.bias
@@ -461,7 +462,6 @@ class ProbeIterator(object):
                 elif self.args.portion == 'non' and exist:
                     num_skip += 1
                     continue
-                # resort to English label
                 if self.args.sub_obj_same_lang:
                     l['sub_label'] = self.entity2lang[l['sub_uri']][LANG if exist else 'en']
                     l['obj_label'] = self.entity2lang[l['obj_uri']][LANG if exist else 'en']
@@ -543,7 +543,6 @@ class ProbeIterator(object):
                     if not self.args.use_gold and instance_xy.find(self.mask_label) == -1:
                         raise Exception('not contain mask tokens "{}"'.format(instance_xy))
                     inp_tensor.append(torch.tensor(tokenizer_wrap(self.tokenizer, LANG, True, instance_xy)))
-
                 # tokenize gold object
                 obj = np.array(tokenizer_wrap(self.tokenizer, LANG, False, obj_label)).reshape(-1)
                 obj_li.append(obj)
@@ -559,7 +558,7 @@ class ProbeIterator(object):
 
             # SHAPE: (batch_size * num_mask, seq_len)
             inp_tensor: torch.Tensor = torch.nn.utils.rnn.pad_sequence(
-                inp_tensor, batch_first=True, padding_value=self.pad)
+                inp_tensor, batch_first=True, padding_value=self.pad)            
             attention_mask: torch.Tensor = inp_tensor.ne(self.pad).long()
             if self.args.use_gold:
                 mask_ind: torch.Tensor = torch.nn.utils.rnn.pad_sequence(
@@ -750,11 +749,12 @@ class ProbeIterator(object):
                             acc_df = pandas.DataFrame.from_dict([acc_dict])
                             # default decoding acc directory
                             if self.args.init_method =='all' and self.args.iter_method=='none':
-                                path = f'experiments/{self.args.portion}/default/{self.args.model}'
+                                path = f'experiments/{self.args.part}/default/{self.args.model}'
                             # confidence decoding acc directory
                             else:
-                                path = f'experiments/{self.args.portion}/confidence/{self.args.model}'
-
+                                path = f'experiments/{self.args.part}/confidence/{self.args.model}'
+                            print('Base path: ', path)
+                            print(f'Full path: {path}/{self.args.lang}.csv')
                             # if path exists
                             if os.path.exists(path):
                                 # append the next PID
@@ -763,12 +763,12 @@ class ProbeIterator(object):
                             else:
                                 if not os.path.exists('experiments'):
                                     os.mkdir(f'experiments')
-                                if not os.path.exists(f'experiments/{self.args.portion}'):
-                                    os.mkdir(f'experiments/{self.args.portion}')
-                                if not os.path.exists(f'experiments/{self.args.portion}/default'):
-                                    os.mkdir(f'experiments/{self.args.portion}/default')
-                                if not os.path.exists(f'experiments/{self.args.portion}/confidence'):
-                                    os.mkdir(f'experiments/{self.args.portion}/confidence')
+                                if not os.path.exists(f'experiments/{self.args.part}'):
+                                    os.mkdir(f'experiments/{self.args.part}')
+                                if not os.path.exists(f'experiments/{self.args.part}/default'):
+                                    os.mkdir(f'experiments/{self.args.part}/default')
+                                if not os.path.exists(f'experiments/{self.args.part}/confidence'):
+                                    os.mkdir(f'experiments/{self.args.part}/confidence')
                                 if not os.path.exists(path):
                                     os.mkdir(path)
                                 acc_df.to_csv(f'{path}/{self.args.lang}.csv', index=False)
@@ -808,11 +808,11 @@ def load_entity_lang(filename: str) -> Dict[str, Dict[str, str]]:
     entity2lang = defaultdict(lambda: {})
     with open(filename, 'r') as fin:
         for l in fin:
-            l = l.strip().split('\t')
-            entity = l[0]
-            for lang in l[1:]:
-                label ,lang = lang.rsplit('@', 1)
-                entity2lang[entity][lang] = label.strip('"')
+            l_ = l.strip().split('\t')
+            entity = l_[0]
+            for lang in l_[1:]:
+                label ,lang_ = lang.rsplit('@', 1)
+                entity2lang[entity][lang_] = label.strip('"')
     return entity2lang
 
 
@@ -1104,11 +1104,17 @@ if __name__ == '__main__':
     parser.add_argument('--sent', type=str, help='actual sentence with [Y]', default=None)
 
     # dataset-related flags
+    #####################################################
     parser.add_argument('--probe', type=str, help='probe dataset',
                         choices=['lama', 'lama-uhn', 'mlama', 'mlamaf'], default='mlamaf')
     parser.add_argument('--pids', type=str, help='pids to run', default=None)
     parser.add_argument('--portion', type=str, choices=['all', 'trans', 'non'], default='trans',
                         help='which portion of facts to use')
+    
+    # portion
+    # trans - all facts have translations
+    # all - all facts, regardless of whether they have translations
+    # non - all facts 
     parser.add_argument('--facts', type=str, help='file path to facts', default=None)
     parser.add_argument('--prompts', type=str, default=None,
                         help='directory where multiple prompts are stored for each relation')
@@ -1143,7 +1149,9 @@ if __name__ == '__main__':
     parser.add_argument('--no_cuda', action='store_true', help='not use cuda')
 
     # new flags
-    parser.add_argument('--log_acc',  help='directory to store accuracy for each PID', default=None)
+    parser.add_argument('--log_acc',  help='log accuracies', default=None)
+
+    parser.add_argument('--part', help='which part of facts to use', choices=['all', 'single', 'multi'], default="all")
 
     args = parser.parse_args()
 
