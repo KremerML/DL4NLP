@@ -1,0 +1,46 @@
+P19,0.0,0.0,0.0,0.0,[X] nació en [Y] .
+P20,0.0,0.0,0.0,0.0,[X] murió en [Y] .
+P279,0.023391812865497075,0.023391812865497075,0.05263157894736842,0.05263157894736842,[X] es una subclase de [Y] .
+P37,0.0,0.0,0.0,0.0,La lengua oficial de [X] es [Y] .
+P413,0.0,0.0,0.0,0.0,[X] juega en la posición de [Y] .
+P166,,,,,[X] recibió [DEF;Y] [Y] .
+P449,0.0,0.0,0.0,0.0,[X] fue emitido originalmente en [Y] .
+P69,0.0,0.0,0.0,0.0,[X] fue educado en la Universidad de [Y] .
+P47,0.0047169811320754715,0.0047169811320754715,0.007075471698113208,0.007075471698113208,[X] comparte una frontera con [Y] .
+P138,0.09722222222222222,0.09722222222222222,0.1527777777777778,0.1527777777777778,[X] recibiò su nombre de [Y] .
+P364,0.0,0.0,0.0,0.0,El idioma original de [X] es [Y] .
+P54,0.0,0.0,0.0,0.0,[X] juega con [Y] .
+P463,0.0,0.0,0.4444444444444444,0.4444444444444444,[X] es [ART;X-Gender] [miembro;X-Gender=MASC|miembra;X-Gender=FEM] de [Y] .
+P101,0.0,0.0,0.0,0.0,[X] trabaja en [Y] .
+P1923,0.0,0.0,0.0,0.0,[Y] participo en [X] .
+P106,0.0,0.0,0.007374631268436578,0.007374631268436578,[X] es [ART;Y-Gender] [Y] de profesiòn .
+P527,0.0,0.0,0.0,0.0,[X] consiste de [Y] .
+P102,,,,,[X] es [miembro;X-Gender=MASC|miembra;X-Gender=FEM] del partido [Y] .
+P530,0.0,0.0,0.0,0.0,[X] mantiene relaciones diplomaticas con [Y] .
+P176,0.5388127853881278,0.5388127853881278,0.5707762557077626,0.5707762557077626,[X] es producido por [Y] .
+P27,0.0024271844660194173,0.0024271844660194173,0.0024271844660194173,0.0024271844660194173,[X] es [ciudadano;X-Gender=MASC|ciudadana;X-Gender=FEM] de [Y] .
+P407,0.0,0.0,0.0,0.0,[X] fue escrito en [Y] .
+P30,0.0,0.0,0.0049261083743842365,0.0049261083743842365,[X] està [localizado;X-Gender=MASC|localizada;X-Gender=FEM] en [Y] .
+P178,0.0,0.0,0.03592814371257485,0.03592814371257485,[X] està desarrollado en [Y] .
+P1376,0.3277777777777778,0.3277777777777778,0.35555555555555557,0.35555555555555557,[X] es la capital de [Y] .
+P131,0.02,0.02,0.02,0.02,[X] està [localizado;X-Gender=MASC|localizada;X-Gender=FEM] en [Y] .
+P1412,0.0,0.0,0.0013404825737265416,0.0013404825737265416,[X] hablaba [Y] .
+P108,0.0,0.0,0.0,0.0,[X] trabaja para [Y] .
+P136,0.0,0.0,0.0,0.0,[X] [toca;X-Number=SG|tocan;X-Number=PL] musica de [Y] .
+P17,0.013812154696132596,0.013812154696132596,0.019337016574585635,0.019337016574585635,[X] està [localizado;X-Gender=MASC|localizada;X-Gender=FEM] en [Y] .
+P39,0.0,0.0,0.0,0.0,[X] tiene la posiciòn de [Y] .
+P264,0.16666666666666666,0.16666666666666666,0.16666666666666666,0.16666666666666666,[X] [està;X-Number=SG|estan;X-Number=PL] [representado;X-Gender=MASC|representada;X-Gender=FEM|representados;X-Number=PL] por el sello musical [Y] .
+P276,0.007633587786259542,0.007633587786259542,0.007633587786259542,0.007633587786259542,[X] està [localizado;X-Gender=MASC|localizada;X-Gender=FEM] en [Y] .
+P937,0.0,0.0,0.0,0.0,[X] trabajaba en [Y] .
+P140,0.0,0.0,0.0,0.0,[X] està [afilado;X-Gender=MASC|afilada;X-Gender=FEM] con la religiòn [Y] .
+P1303,0.006430868167202572,0.006430868167202572,0.00964630225080386,0.00964630225080386,[X] [toca;X-Number=SG|tocan;X-Number=PL] [DEF;Y] [Y] .
+P127,0.0,0.0,0.0,0.0,El [dueño;Y-Gender=MASC|dueña;Y-Gender=FEM] de [X] es [Y] .
+P103,0.0,0.0,0.0,0.0,El idioma nativo de [X] es [Y] .
+P190,0.00234192037470726,0.00234192037470726,0.02576112412177986,0.02576112412177986,[X] y [Y] son ciudades gemelas.
+P1001,0.24034334763948498,0.24034334763948498,0.26609442060085836,0.26609442060085836,[X] es un tema legal de [Y] .
+P31,0.2777777777777778,0.2777777777777778,0.29365079365079366,0.29365079365079366,[X] es un ejemplo de [ART;Y-Gender] [Y] .
+P495,0.0,0.0,0.0,0.0,[X] fue [creado;X-Gender=MASC|creada;X-Gender=FEM] en [Y] .
+P159,0.0,0.0,0.03879310344827586,0.03879310344827586,La sede de [X] està en [Y] .
+P36,0.18324607329842932,0.18324607329842932,0.19895287958115182,0.19895287958115182,La capital de [X] es [Y] .
+P740,0.0,0.0,0.0,0.0,[X] fue [fundado;X-Gender=MASC|fundada;X-Gender=FEM] en [Y] .
+P361,0.0,0.0,0.045454545454545456,0.045454545454545456,[X] es parte de [Y] .
