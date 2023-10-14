@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# git clone https://github.com/jzbjyb/X-FACTR.git
+### Setup Conda environment for baseline X-FACTR reproduction ###
 
 # before install, make sure you have git-lfs (otherwise X-FACTR will not install correctly)
 apt-get install git-lfs
@@ -17,3 +17,5 @@ pip install protobuf==3.20.*
 # 1.13.1+cu117
 pip install --upgrade torch
 
+### Setup conda environment for fine-tuning experiments ###
+conda env create -f environment.yml

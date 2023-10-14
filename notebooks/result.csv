@@ -4,11 +4,11 @@ Aland Islands,Mariehamn,Mariehamn,The capital of the Aland,Mariehamn,De hoofdsta
 Albania,Tirana,Tirana,Tirana,Tirana,Tirana,Tirana
 Algeria,Algiers,Algiers,Algiers,Algiers,Algiers,Algiers
 American Samoa,Pago Pago,Pago Pago,The capital of,Pago Pago,De hoofdstad van Amerikaans-,Pago Pago
-Andorra,Andorra la Vella,Andorra la Vella,Andorra la,Andorra la,De hoofdstad van Andorra is Andorra,Andorra la Vella
+Andorra,Andorra la Vella,Andorra la Vella,Andorra la,Vella,De hoofdstad van Andorra is Andorra,Andorra la Vella
 Angola,Luanda,Luanda,the Angola is Luanda,Luanda,De hoofdstad van Angola is Luanda,Luanda
 Anguilla,The Valley,The Valley,The,The Valley,De hoofdstad van Anguilla,Anguilla is The Valley
-Antarctica,,,the Antarctica,nan,nan,Antarctica
-Antigua and Barbuda,Saint John's,Saint John's,The capital of the Antigua and,Antigua and Barbuda is Saint John,De hoofdstad van Antigua en,Antigua en Barbuda
+Antarctica,,,the Antarctica,nan,nan,nan
+Antigua and Barbuda,Saint John's,Saint John's,The capital of the Antigua and,Saint John,De hoofdstad van Antigua en,Antigua en Barbuda is Saint John's
 Argentina,Buenos Aires,Buenos Aires,the Argentina is Buenos,Buenos Aires,Buenos,Buenos Aires
 Armenia,Yerevan,Jerevan,Armenia is Yerevan,Yerevan,Jerevan,Jerevan
 Aruba,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad,Oranjestad
@@ -31,7 +31,7 @@ Botswana,Gaborone,Gaborone,Gaborone,Gaborone,Gaborone,Gaborone
 Brazil,Brasilia,Brasilia,the,Brasilia,De,Brasilia
 British Indian Ocean Territory,Diego Garcia,,The capital of,Diego Garcia,De hoofdstad van Brits,nan
 British Virgin Islands,Road Town,Road Town,The capital of the,Road Town,Road,Road Town
-Brunei Darussalam,Bandar Seri Begawan,Bandar Seri Begawan,Darussalam is Bandar Seri Begawan,Begawan,De hoofdstad van Brunei is Bandar Seri Begawan,Brunei
+Brunei Darussalam,Bandar Seri Begawan,Bandar Seri Begawan,Darussalam is Bandar Seri Begawan,Bandar Seri Begawan,De hoofdstad van Brunei is Bandar Seri Begawan,Bandar Seri Begawan
 Bulgaria,Sofia,Sofia,the Bulgaria,Sofia,De hoofdstad van Bulgarije,Sofia
 Burkina Faso,Ouagadougou,Ouagadougou,Ouagadougou,Ouagadougou,Ouagadougou,Ouagadougou
 Burundi,Bujumbura,Gitega,Bujumbura,Bujumbura,De hoofdstad van Burundi is Gitega,Gitega
@@ -41,11 +41,11 @@ Canada,Ottawa,Ottawa,The capital of,Ottawa,Ottawa,Ottawa
 Cape Verde,Praia,Praia,The capital of,Praia,De,Praia
 Cayman Islands,George Town,George Town,The capital of,George Town,George,George Town
 Central African Republic,Bangui,Bangui,Bangui,Bangui,Centraal-,Bangui
-Chad,N'Djamena,Ndjamena,Chad is N,N'Djamena,De,Ndjamena
+Chad,N'Djamena,Ndjamena,Chad is N,Djamena,De,Ndjamena
 Chile,Santiago,Santiago,The capital of,Santiago,De hoofdstad van Chili,Santiago
 China,Beijing,Peking,Beijing,Beijing,De hoofdstad van China is Peking,Peking
-Christmas Island,The Settlement,The Settlement,The,Christmas Island is The Settlement,The,Christmaseiland is The Settlement
-Cocos Islands,West Island,West Island,The capital of,Cocos,De,Cocoseilanden is West Island
+Christmas Island,The Settlement,The Settlement,The,The capital of the Christmas Island is The Settlement,The,Christmaseiland is The Settlement
+Cocos Islands,West Island,West Island,The capital of,West Island,De,West Island
 Colombia,Bogota,Bogota,Bogota,Bogota,Bogota,Bogota
 Comoros,Moroni,Moroni,Comoros,Moroni,De hoofdstad van Comoren,Moroni
 Cook Islands,Avarua,Avarua,The capital of,Avarua,Avarua,Avarua
@@ -58,7 +58,7 @@ Cyprus,Nicosia,Nicosia,the Cyprus is Nicosia,Nicosia,De hoofdstad van Cyprus,Nic
 Czech Republic,Prague,Praag,Republic is Prague,Prague,Tsjechië is Praag,Praag
 Democratic Republic of the Congo,Kinshasa,Kinshasa,Republic of,Kinshasa,De hoofdstad van Congo-,Kinshasa
 Denmark,Copenhagen,Kopenhagen,the Denmark,Copenhagen,De hoofdstad van Denemarken is Kopenhagen,Kopenhagen
-Djibouti,Djibouti,Djibouti,the Djibouti is Djibouti,Djibouti is Djibouti,De hoofdstad van Djibouti is Djibouti,Djibouti
+Djibouti,Djibouti,Djibouti,the Djibouti is Djibouti,Djibouti,De hoofdstad van Djibouti is Djibouti,Djibouti
 Dominica,Roseau,Roseau,The capital of the Dominica is Roseau,Roseau,De hoofdstad van Dominica is Roseau,Roseau
 Dominican Republic,Santo Domingo,Santo Domingo,The capital of the,Santo Domingo,Domingo,Santo Domingo
 Ecuador,Quito,Quito,Quito,Quito,Quito,Quito
@@ -83,17 +83,17 @@ Ghana,Accra,Accra,Accra,Accra,Accra,Accra
 Gibraltar,Gibraltar,Gibraltar,the,Gibraltar,De,Gibraltar
 Greece,Athens,Athene,Athens,Athens,De hoofdstad van Griekenland,Athene
 Greenland,Nuuk,Nuuk,capital of,Nuuk,De,Nuuk
-Grenada,Saint George's,Saint George's,the,Grenada,De hoofdstad van Grenada is Saint,Grenada
+Grenada,Saint George's,Saint George's,the,Saint George,De hoofdstad van Grenada is Saint,Grenada
 Guam,Hagatna,Hagatna,the Guam is Hagatna,Hagatna,De,Hagatna
-Guatemala,Guatemala City,Guatemala-Stad,City,Guatemala City,Stad,Guatemala
-Guernsey,Saint Peter Port,Saint Peter Port,The capital of,Guernsey,De hoofdstad van Guernsey is Saint,Guernsey
+Guatemala,Guatemala City,Guatemala-Stad,City,Guatemala City,Stad,Guatemala is Guatemala-Stad
+Guernsey,Saint Peter Port,Saint Peter Port,The capital of,Saint Peter Port,De hoofdstad van Guernsey is Saint,Guernsey is Saint Peter Port
 Guinea,Conakry,Conakry,Conakry,Conakry,Guinee-,Conakry
 Guinea-Bissau,Bissau,Bissau,the Guinea-,Bissau,Guinee-,Bissau
 Guyana,Georgetown,Georgetown,Georgetown,Georgetown,Georgetown,Georgetown
-Haiti,Port-au-Prince,Port-au-Prince,the Haiti is Port-,Port-au-Prince,De hoofdstad van Haïti is Port,Haïti is Port-au-Prince
-Heard Island and McDonald Islands,,,The capital of the Heard Island and McDonald Islands is nan,Heard,De hoofdstad van Heard en,Heard
+Haiti,Port-au-Prince,Port-au-Prince,the Haiti is Port-,Port-au-Prince,De hoofdstad van Haïti is Port,Port-au-Prince
+Heard Island and McDonald Islands,,,The capital of the Heard Island and McDonald Islands is nan,nan,De hoofdstad van Heard en,nan
 Honduras,Tegucigalpa,Tegucigalpa,the Honduras is Tegucigalpa,Tegucigalpa,De hoofdstad van Honduras is Tegucigalpa,Tegucigalpa
-Hong Kong,,,nan,nan,De hoofdstad van Hong Kong is nan,Hong Kong
+Hong Kong,,,nan,nan,De hoofdstad van Hong Kong is nan,nan
 Hungary,Budapest,Boedapest,the Hungary is Budapest,Budapest,De hoofdstad van Hongarije is Boedapest,Boedapest
 Iceland,Reykjavik,Reykjavik,the Iceland is Reykjavik,Reykjavik,De hoofdstad van IJsland is Reykjavik,Reykjavik
 India,New Delhi,New Delhi,The capital of,New Delhi,De,New Delhi
@@ -106,11 +106,11 @@ Israel,Jerusalem,Jeruzalem,the Israel is Jerusalem,Jerusalem,De hoofdstad van Is
 Italy,Rome,Rome,the Italy is Rome,Rome,De hoofdstad van Italië,Rome
 Jamaica,Kingston,Kingston,Kingston,Kingston,Kingston,Kingston
 Japan,Tokyo,Tokio,the Japan is Tokyo,Tokyo,Tokio,Tokio
-Jersey,Saint Helier,Saint Helier,the Jersey is Saint Helier,Saint Helier,De hoofdstad van Jersey is Saint Helier,Saint Helier
+Jersey,Saint Helier,Saint Helier,the Jersey is Saint Helier,Helier,De hoofdstad van Jersey is Saint Helier,Jersey is Saint Helier
 Jordan,Amman,Amman,Amman,Amman,Amman,Amman
 Kazakhstan,Astana,Astana,Astana,Astana,Astana,Astana
 Kenya,Nairobi,Nairobi,the Kenya is Nairobi,Nairobi,De hoofdstad van Kenia,Nairobi
-Kiribati,Tarawa,Zuid-Tarawa,The capital of,Tarawa,Zuid-,Kiribati
+Kiribati,Tarawa,Zuid-Tarawa,The capital of,Tarawa,Zuid-,Kiribati is Zuid-Tarawa
 Kosovo,Pristina,Pristina,the Kosovo is Pristina,Pristina,De hoofdstad van Kosovo is Pristina,Pristina
 Kuwait,Kuwait City,Koeweit,the Kuwait is Kuwait City,Kuwait City,De hoofdstad van Koeweit is Koeweit,Koeweit
 Kyrgyzstan,Bishkek,Bisjkek,Bishkek,Bishkek,De hoofdstad van Kirgizië is Bisjkek,Bisjkek
@@ -122,8 +122,8 @@ Liberia,Monrovia,Monrovia,Monrovia,Monrovia,Monrovia,Monrovia
 Libya,Tripoli,Tripoli,the,Tripoli,De hoofdstad van Libië,Tripoli
 Liechtenstein,Vaduz,Vaduz,The capital of,Vaduz,Vaduz,Vaduz
 Lithuania,Vilnius,Vilnius,the,Vilnius,De hoofdstad van Litouwen,Vilnius
-Luxembourg,Luxembourg,Luxemburg,the Luxembourg is Luxembourg,Luxembourg,De hoofdstad van Luxemburg is Luxemburg,De hoofdstad van Luxemburg
-Macau,,Macau,nan,Macau,De hoofdstad van Macau is Macau,Macau
+Luxembourg,Luxembourg,Luxemburg,the Luxembourg is Luxembourg,Luxembourg,De hoofdstad van Luxemburg is Luxemburg,Luxemburg
+Macau,,Macau,nan,nan,De hoofdstad van Macau is Macau,Macau
 Macedonia,Skopje,Skopje,Skopje,Skopje,Noord,Skopje
 Madagascar,Antananarivo,Antananarivo,the Madagascar is Antananarivo,Antananarivo,De hoofdstad van Madagaskar is Antananarivo,Antananarivo
 Malawi,Lilongwe,Lilongwe,Lilongwe,Lilongwe,Lilongwe,Lilongwe
@@ -134,7 +134,7 @@ Malta,Valletta,Valletta,the Malta is Valletta,Valletta,De hoofdstad van Malta is
 Marshall Islands,Majuro,Majuro,Majuro,Majuro,Majuro,Majuro
 Mauritania,Nouakchott,Nouakchott,Nouakchott,Nouakchott,Nouakchott,Nouakchott
 Mauritius,Port Louis,Port Louis,The capital of the Mauritius is Port,Port Louis,De hoofdstad van Mauritius is Port,Port Louis
-Mexico,Mexico City,Mexico-Stad,City,Mexico,De hoofdstad van Mexico is Mexico-,Mexico
+Mexico,Mexico City,Mexico-Stad,City,Mexico City,De hoofdstad van Mexico is Mexico-,Mexico-Stad
 Moldova,Chisinau,Chisinau,the Moldova is Chisinau,Chisinau,Moldavië is Chisinau,Chisinau
 Monaco,Monaco,Monaco (Stadstaat),the Monaco is Monaco,Monaco,Stadstaat,Monaco
 Mongolia,Ulaanbaatar,Ulaanbaatar,Ulaanbaatar,Ulaanbaatar,De hoofdstad van Mongolië is Ulaanbaatar,Ulaanbaatar
@@ -155,7 +155,7 @@ Nigeria,Abuja,Abuja,Abuja,Abuja,De,Abuja
 Niue,Alofi,Alofi,Alofi,Alofi,Alofi,Alofi
 Norfolk Island,Kingston,Kingston,Kingston,Kingston,Kingston,Kingston
 North Korea,Pyongyang,Pyongyang,North Korea is Pyongyang,Pyongyang,Noord-,Pyongyang
-Northern Cyprus,North Nicosia,Noord-Nicosia,North,Nicosia,Noord-,Noord-Cyprus
+Northern Cyprus,North Nicosia,Noord-Nicosia,North,North Nicosia,Noord-,Noord-Cyprus is Noord-Nicosia
 Northern Mariana Islands,Saipan,Saipan,The capital of,Saipan,Noordelijke,Saipan
 Norway,Oslo,Oslo,Oslo,Oslo,Oslo,Oslo
 Oman,Muscat,Muscat,Muscat,Muscat,Muscat,Muscat
@@ -176,22 +176,22 @@ Republic of Congo,Brazzaville,Brazzaville,Republic of,Brazzaville,De hoofdstad v
 Romania,Bucharest,Boekarest,the Romania is Bucharest,Bucharest,Boekarest,Boekarest
 Russia,Moscow,Moskou,The capital of,Moscow,De hoofdstad van Rusland is Moskou,Moskou
 Rwanda,Kigali,Kigali,the Rwanda is Kigali,Kigali,De hoofdstad van Rwanda is Kigali,Kigali
-Saint Barthelemy,Gustavia,Gustavia,the,Gustavia,De hoofdstad van Saint-,Barthélemy
+Saint Barthelemy,Gustavia,Gustavia,the,Gustavia,De hoofdstad van Saint-,Gustavia
 Saint Helena,Jamestown,Jamestown,the,Jamestown,De hoofdstad van Sint-,Jamestown
 Saint Kitts and Nevis,Basseterre,Basseterre,Basseterre,Basseterre,De hoofdstad van Saint Kitts en,Basseterre
 Saint Lucia,Castries,Castries,Castries,Castries,Castries,Castries
 Saint Martin,Marigot,Marigot,the Saint Martin is Marigot,Marigot,De hoofdstad van Sint-,Marigot
-Saint Pierre and Miquelon,Saint-Pierre,Saint-Pierre,the Saint Pierre and Miquelon is Saint-,Miquelon is Saint-Pierre,De hoofdstad van Saint Pierre en Miquelon is Saint-,Miquelon is Saint-Pierre
+Saint Pierre and Miquelon,Saint-Pierre,Saint-Pierre,the Saint Pierre and Miquelon is Saint-,Saint-Pierre,De hoofdstad van Saint Pierre en Miquelon is Saint-,Miquelon is Saint-Pierre
 Saint Vincent and the Grenadines,Kingstown,Kingstown,The capital of the Saint Vincent and,Kingstown,De hoofdstad van Saint Vincent en,Kingstown
 Samoa,Apia,Apia,The capital of,Apia,De,Apia
-San Marino,San Marino,San Marino,the San Marino is San,San Marino,De hoofdstad van San Marino is San,De hoofdstad van San Marino
-Sao Tome and Principe,Sao Tome,Sao Tomé,the,Sao Tome,De,Sao Tomé en Principe
+San Marino,San Marino,San Marino,the San Marino is San,San Marino,De hoofdstad van San Marino is San,San Marino
+Sao Tome and Principe,Sao Tome,Sao Tomé,the,Sao Tome,De,Sao Tomé
 Saudi Arabia,Riyadh,Riyad,the Saudi Arabia is Riyadh,Riyadh,De hoofdstad van Saoedi-,Riyad
 Senegal,Dakar,Dakar,The capital of,Dakar,De,Dakar
 Serbia,Belgrade,Belgrado,Belgrade,Belgrade,De hoofdstad van Servië,Belgrado
-Seychelles,Victoria,Victoria,The capital of,Victoria,De,Seychellen
+Seychelles,Victoria,Victoria,The capital of,Victoria,De,Victoria
 Sierra Leone,Freetown,Freetown,The capital of,Freetown,De hoofdstad van,Freetown
-Singapore,Singapore,Singapore,the,The capital of the Singapore is Singapore,De,Singapore
+Singapore,Singapore,Singapore,the,Singapore,De,Singapore
 Sint Maarten,Philipsburg,Philipsburg,capital of,Philipsburg,De hoofdstad van Sint-,Philipsburg
 Slovakia,Bratislava,Bratislava,the,Bratislava,De,Bratislava
 Slovenia,Ljubljana,Ljubljana,the,Ljubljana,De hoofdstad,Ljubljana
@@ -199,7 +199,7 @@ Solomon Islands,Honiara,Honiara,The capital of the,Honiara,De hoofdstad van Salo
 Somalia,Mogadishu,Mogadishu,the Somalia is Mogadishu,Mogadishu,De hoofdstad van Somalië is Mogadishu,Mogadishu
 Somaliland,Hargeisa,Hargeisa,Hargeisa,Hargeisa,De,Hargeisa
 South Africa,Pretoria,"Pretoria, Bloemfontein, Kaapstad",the,Pretoria,"Zuid-Afrika is Pretoria, Bloemfontein",Pretoria
-South Georgia and South Sandwich Islands,King Edward Point,King Edward Point,The capital of the,King Edward,De hoofdstad van Zuid-Georgia en,King Edward
+South Georgia and South Sandwich Islands,King Edward Point,King Edward Point,The capital of the,King Edward Point,De hoofdstad van Zuid-Georgia en,King Edward Point
 South Korea,Seoul,Seoel,capital of,Seoul,Zuid-,Seoel
 South Sudan,Juba,Juba,the,Juba,Zuid-,Juba
 Spain,Madrid,Madrid,Madrid,Madrid,Madrid,Madrid
@@ -207,39 +207,39 @@ Sri Lanka,Colombo,Sri Jayewardenapura Kotte,the,Colombo,De hoofdstad van,Kotte
 Sudan,Khartoum,Khartoem,Khartoum,Khartoum,Khartoem,Khartoem
 Suriname,Paramaribo,Paramaribo,the Suriname is Paramaribo,Paramaribo,De,Paramaribo
 Svalbard,Longyearbyen,Longyearbyen,the Svalbard is Longyearbyen,Longyearbyen,De hoofdstad van Spitsbergen is Longyearbyen,Longyearbyen
-Swaziland,Mbabane,"Lobamba, Mbabane",Mbabane,Mbabane,De hoofdstad van Swaziland is Lobamba,Swaziland is Lobamba
+Swaziland,Mbabane,"Lobamba, Mbabane",Mbabane,Mbabane,De hoofdstad van Swaziland is Lobamba,Lobamba
 Sweden,Stockholm,Stockholm,the,Stockholm,De,Stockholm
 Switzerland,Bern,Bern,Bern,Bern,De hoofdstad van Zwitserland is Bern,Bern
 Syria,Damascus,Damascus,the Syria is Damascus,Damascus,De hoofdstad van Syrië,Damascus
 Taiwan,Taipei,Taipei (de facto),The capital of,Taipei,De hoofdstad van Taiwan is Taipei (de,Taipei
 Tajikistan,Dushanbe,Doesjanbe,Dushanbe,Dushanbe,De hoofdstad van Tadzjikistan,Doesjanbe
-Tanzania,Dar es Salaam,Dodoma,Dar,Dar es Salaam,Dodoma,Dodoma
+Tanzania,Dar es Salaam,Dodoma,Dar,Salaam,Dodoma,Dodoma
 Thailand,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok,Bangkok
 The Gambia,Banjul,Banjul,Banjul,Banjul,Banjul,Banjul
 Timor-Leste,Dili,Dili,the Timor-Leste is Dili,Dili,De hoofdstad van Oost-Timor is Dili,Dili
 Togo,Lome,Lomé,Lome,Lome,De hoofdstad van Togo is Lomé,Lomé
 Tokelau,Atafu,Atafu,the Tokelau is Atafu,Atafu,De hoofdstad van Tokelau is Atafu,Atafu
-Tonga,Nuku'alofa,Nuku'alofa,The capital of,Nuku,De,Nuku
-Trinidad and Tobago,Port of Spain,Port of Spain,the Trinidad and Tobago is Port,Port of Spain,De hoofdstad van Trinidad en Tobago is Port,De hoofdstad van Trinidad en Tobago
+Tonga,Nuku'alofa,Nuku'alofa,The capital of,Nuku'alofa,De,Nuku'alofa
+Trinidad and Tobago,Port of Spain,Port of Spain,the Trinidad and Tobago is Port,Port of Spain,De hoofdstad van Trinidad en Tobago is Port,Trinidad en Tobago is Port of Spain
 Tunisia,Tunis,Tunis,the Tunisia is Tunis,Tunis,De hoofdstad van Tunesië is Tunis,Tunis
 Turkey,Ankara,Ankara,Ankara,Ankara,Ankara,Ankara
 Turkmenistan,Ashgabat,Asjchabad,Ashgabat,Ashgabat,Asjchabad,Asjchabad
-Turks and Caicos Islands,Cockburn Town,Cockburn Town,The capital of the Turks and Caicos Islands is Cockburn,Cockburn,De hoofdstad van Turks-,Cockburn
+Turks and Caicos Islands,Cockburn Town,Cockburn Town,The capital of the Turks and Caicos Islands is Cockburn,Cockburn,De hoofdstad van Turks-,Cockburn Town
 Tuvalu,Funafuti,Funafuti,the,Funafuti,De,Funafuti
 Uganda,Kampala,Kampala,Kampala,Kampala,De hoofdstad van Oeganda,Kampala
 Ukraine,Kyiv,Kiev,The capital of the Ukraine is Kyiv,Kyiv,De hoofdstad van Oekraïne,Kiev
 United Arab Emirates,Abu Dhabi,Abu Dhabi,The capital of the United Arab Emirates is Abu,Abu Dhabi,De hoofdstad van Verenigde Arabische,Abu Dhabi
 United Kingdom,London,Londen,The capital of the,London,De hoofdstad van Verenigd Koninkrijk is Londen,Londen
-United States,Washington D.C.,Washington D.C.,C.,Washington D,De hoofdstad van Verenigde Staten is Washington D,De hoofdstad van Verenigde Staten is Washington D
+United States,Washington D.C.,Washington D.C.,C.,Washington D.C,De hoofdstad van Verenigde Staten is Washington D,Washington D.C
 Uruguay,Montevideo,Montevideo,The capital of,Montevideo,De,Montevideo
-US Minor Outlying Islands,Washington,Washington D.C.,The,Washington,De hoofdstad van Amerikaanse Kleinere Afgelegen,De hoofdstad van Amerikaanse Kleinere Afgelegen Eilanden is Washington D
+US Minor Outlying Islands,Washington,Washington D.C.,The,Washington,De hoofdstad van Amerikaanse Kleinere Afgelegen,Washington D.C
 US Virgin Islands,Charlotte Amalie,Charlotte Amalie,The,Charlotte Amalie,De hoofdstad van Amerikaanse,Charlotte Amalie
 Uzbekistan,Tashkent,Tasjkent,The capital of the Uzbekistan is Tashkent,Tashkent,De hoofdstad van Oezbekistan,Tasjkent
 Vanuatu,Port-Vila,Port Vila,The capital of the Vanuatu is Port-,Port-Vila,De hoofdstad van Vanuatu is Port,Port Vila
 Vatican City,Vatican City,Vaticaanstad (Stadstaat),the Vatican City is Vatican City,Vatican City,Stadstaat,Vaticaanstad
 Venezuela,Caracas,Caracas,the,Caracas,De,Caracas
 Vietnam,Hanoi,Hanoi,the Vietnam is Hanoi,Hanoi,De hoofdstad van Vietnam is Hanoi,Hanoi
-Wallis and Futuna,Mata-Utu,Mata-Utu,The capital of the Wallis and Futuna is Mata-,Mata,De hoofdstad van Wallis en,Wallis en Futuna
+Wallis and Futuna,Mata-Utu,Mata-Utu,The capital of the Wallis and Futuna is Mata-,Utu,De hoofdstad van Wallis en,Mata-Utu
 Western Sahara,El-Aaiún,Al-Ajoen,The capital of the Western Sahara is El-,Aaiún,De hoofdstad van Westelijke Sahara is Al-,Ajoen
 Yemen,Sanaa,Sanaa,The capital of,Sanaa,De,Sanaa
 Zambia,Lusaka,Lusaka,The capital of,Lusaka,De hoofdstad van,Lusaka

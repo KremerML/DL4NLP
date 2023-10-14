@@ -1,0 +1,20 @@
+name: xfactr_exp
+channels:
+  - defaults
+dependencies:
+  - pip=23.2.1
+  - python=3.10.13
+  - pip:
+      - accelerate==0.23.0
+      - datasets==2.14.5
+      - ipykernel==6.25.2
+      - ipython==8.16.1
+      - ipywidgets==8.1.1
+      - kaggle==1.5.16
+      - notebook==7.0.5
+      - numpy==1.26.0
+      - opendatasets==0.1.22
+      - pandas==2.1.1
+      - tokenizers==0.14.1
+      - torch==2.1.0
+      - transformers==4.34.0
